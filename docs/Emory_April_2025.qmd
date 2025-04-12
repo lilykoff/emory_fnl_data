@@ -25,7 +25,7 @@ date: "April 15 2025"
 
 ![](figs/qr.png) 
 
-[https://shorturl.at/FdHXC](https://shorturl.at/FdHXC)
+[https://shorturl.at/AJOnk](https://shorturl.at/AJOnk)
 
 
 
@@ -972,6 +972,28 @@ $F(\cdot, \cdot, \cdot)$: trivariate smooth function
 Hat tip to [Edward Gunning](https://edwardgunning.github.io/) for the idea for these figures
 :::
 
+### Aside: functional regression approach {.scrollable}
+
+**Toy example**
+
++ 4 observations per second (data are observed every 1/25th second)
++ 2 seconds 
++ 1 individual 
+
+
++ acceleration matrix = $$\begin{bmatrix} v_1(1) & v_1(1) & v_1(1) & v_1(2) & v_1(2) & v_1(3) \\
+v_2(1) & v_2(1) & v_2(1) & v_2(2) & v_2(2) & v_2(3) \\
+\end{bmatrix}
+$$ 
+
++ lag acceleration matrix = $$\begin{bmatrix} v_1(2) & v_1(3) & v_1(4) & v_1(3) & v_1(4) & v_1(4) \\
+v_2(2) & v_2(3) & v_2(4) & v_2(3) & v_2(4) & v_2(4)  \\
+\end{bmatrix}
+$$ 
+
++ lag matrix = $$\begin{bmatrix} 1 & 2 & 3 & 1 & 2 & 1\\
+1 & 2 & 3 & 1 & 2 & 1\\\end{bmatrix}
+$$ 
 
 ### Both methods work! 
 

@@ -408,7 +408,7 @@ Lily Koffman
 <section id="follow-along" class="title-slide slide level1 center">
 <h1>Follow along</h1>
 
-<img data-src="figs/qr.png" class="r-stretch"><p><a href="https://shorturl.at/FdHXC">https://shorturl.at/FdHXC</a></p>
+<img data-src="figs/qr.png" class="r-stretch"><p><a href="https://shorturl.at/AJOnk">https://shorturl.at/AJOnk</a></p>
 </section>
 
 <section id="introduction" class="title-slide slide level1 center">
@@ -643,6 +643,26 @@ Lily Koffman
 <div class="footer">
 <p>Hat tip to <a href="https://edwardgunning.github.io/">Edward Gunning</a> for the idea for these figures</p>
 </div>
+</section>
+<section id="aside-functional-regression-approach-5" class="slide level3 scrollable">
+<h3>Aside: functional regression approach</h3>
+<p><strong>Toy example</strong></p>
+<ul>
+<li class="fragment"><p>4 observations per second (data are observed every 1/25th second)</p></li>
+<li class="fragment"><p>2 seconds</p></li>
+<li class="fragment"><p>1 individual</p></li>
+<li class="fragment"><p>acceleration matrix = <span class="math display">\[\begin{bmatrix} v_1(1) &amp; v_1(1) &amp; v_1(1) &amp; v_1(2) &amp; v_1(2) &amp; v_1(3) \\
+v_2(1) &amp; v_2(1) &amp; v_2(1) &amp; v_2(2) &amp; v_2(2) &amp; v_2(3) \\
+\end{bmatrix}
+\]</span></p></li>
+<li class="fragment"><p>lag acceleration matrix = <span class="math display">\[\begin{bmatrix} v_1(2) &amp; v_1(3) &amp; v_1(4) &amp; v_1(3) &amp; v_1(4) &amp; v_1(4) \\
+v_2(2) &amp; v_2(3) &amp; v_2(4) &amp; v_2(3) &amp; v_2(4) &amp; v_2(4)  \\
+\end{bmatrix}
+\]</span></p></li>
+<li class="fragment"><p>lag matrix = <span class="math display">\[\begin{bmatrix} 1 &amp; 2 &amp; 3 &amp; 1 &amp; 2 &amp; 1\\
+1 &amp; 2 &amp; 3 &amp; 1 &amp; 2 &amp; 1\\\end{bmatrix}
+\]</span></p></li>
+</ul>
 </section>
 <section id="both-methods-work" class="slide level3">
 <h3>Both methods work!</h3>
